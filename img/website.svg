@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="34" viewBox="0 0 33 34">
+  <g id="Group_17" data-name="Group 17" transform="translate(0.087 0.077)">
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="16.5" cy="17" rx="16.5" ry="17" transform="translate(-0.087 -0.077)" fill="#55a2ca"/>
+    <g id="Group_25" data-name="Group 25" transform="translate(-896.01 -485.45)">
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="10.5" cy="10.5" r="10.5" transform="translate(901.924 492)" fill="none" stroke="#fff" stroke-width="1"/>
+      <path id="Intersection_2" data-name="Intersection 2" d="M-.71,41.141a16.523,16.523,0,0,1,16.268,0,10.5,10.5,0,0,1-16.268,0Z" transform="translate(905 468)" fill="none" stroke="#fff" stroke-width="1"/>
+      <path id="Intersection_1" data-name="Intersection 1" d="M-.108,55.184a10.5,10.5,0,0,1,15.064,0,16.532,16.532,0,0,1-15.064,0Z" transform="translate(905 440)" fill="none" stroke="#fff" stroke-width="1"/>
+      <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="5.5" cy="10.5" rx="5.5" ry="10.5" transform="translate(906.924 492)" fill="none" stroke="#fff" stroke-width="1"/>
+      <line id="Line_1" data-name="Line 1" x2="21.898" transform="translate(901.475 502.322)" fill="none" stroke="#fff" stroke-width="1"/>
+      <line id="Line_2" data-name="Line 2" y2="21.398" transform="translate(912.424 491.873)" fill="none" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

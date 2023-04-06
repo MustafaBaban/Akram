@@ -1,0 +1,275 @@
+@font-face {
+  font-family: "SF UI Text Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Regular"), url("/fonts/SFUIText-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "SF UI Text Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Italic"), url("/fonts/SFUIText-RegularItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "SF UI Text Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Light"), url("/fonts/SFUIText-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "SF UI Text Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Light Italic"), url("/fonts/SFUIText-LightItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "SF UI Text Medium";
+  font-style: normal;
+  font-weight: 600;
+  src: local("SF UI Text Medium"), url("/fonts/SFUIText-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "SF UI Text Medium Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Medium Italic"), url("/fonts/SFUIText-MediumItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "SF UI Text Semibold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Semibold"), url("/fonts/SFUIText-Semibold.woff") format("woff");
+}
+@font-face {
+  font-family: "SF UI Text Semibold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Semibold Italic"), url("/fonts/SFUIText-SemiboldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "SF UI Text Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Bold"), url("/fonts/SFUIText-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "SF UI Text Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Bold Italic"), url("/fonts/SFUIText-BoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "SF UI Text Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Heavy"), url("/fonts/SFUIText-Heavy.woff") format("woff");
+}
+@font-face {
+  font-family: "SF UI Text Heavy Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Heavy Italic"), url("/fonts/SFUIText-HeavyItalic.woff") format("woff");
+}
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SF UI Text Regular";
+}
+
+.card {
+  background-color: white;
+  background-image: url("/img/background.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: bottom !important;
+}
+
+.background {
+  position: absolute !important;
+  bottom: -13%;
+  left: -62%;
+  z-index: -10;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  place-content: center;
+  flex-direction: column;
+}
+.card .logo {
+  background-image: url("/img/Logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  overflow: visible;
+  margin-top: 1em;
+  min-width: 176px;
+  max-width: 176px;
+  min-height: 176px;
+  max-height: 176px;
+  place-content: center;
+  align-self: center;
+}
+.card .head {
+  color: #e8383c;
+  width: 260px;
+  align-self: center;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+.card .head h3 {
+  font-family: "SF UI Text Bold";
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.card .head p {
+  padding-top: 2px;
+  font-size: 11px;
+}
+.card .info {
+  cursor: pointer;
+  transition: background-color 300ms ease-out;
+  border-radius: 50px;
+  display: flex;
+  width: 260px;
+  height: 40px;
+  align-self: center;
+  place-content: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  color: #050505;
+}
+.card .info p {
+  align-self: center;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.3;
+}
+.card .info div {
+  align-self: center;
+  padding-left: 0.5em;
+}
+.card .info .img {
+  height: 40px;
+  width: 40px;
+  background-position: center !important;
+  background: url("/img/info.svg") no-repeat;
+}
+.card .info .small {
+  font-size: 10px !important;
+  line-height: 1.3;
+  text-align: center;
+}
+.card .info:hover {
+  background-color: #ed523e;
+  color: white;
+}
+.card .info:hover .img {
+  background: url("/img/infoWhite.svg") no-repeat;
+}
+
+.social-items {
+  text-align: -webkit-center;
+}
+.social-items .link {
+  width: fit-content;
+  height: fit-content;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+.social-items .social-item {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  margin-bottom: 1.2em;
+  background-color: white;
+  border-radius: 25px;
+  width: 260px;
+  height: 40px;
+  box-shadow: 0px 0px 10px 1px rgba(61, 61, 61, 0.068);
+  overflow: hidden;
+}
+.social-items .social-item img {
+  width: 38px;
+  padding-left: 3px;
+}
+.social-items .social-item p {
+  position: absolute;
+  align-self: center;
+  left: 50px;
+  font-size: 14px;
+  font-family: "SF UI Text Medium";
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.social-items .social-item img {
+  transition: transform 600ms, margin-left 600ms;
+}
+.social-items .social-item p {
+  transition: margin-left 600ms;
+}
+.social-items .social-item:hover img {
+  transform: rotate(360deg);
+  margin-left: 41%;
+}
+.social-items .social-item:hover p {
+  margin-left: 100%;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: #e4e4e4 !important;
+    background: url(/img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: 50% 50% !important;
+    display: flex;
+  }
+
+  .card {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 50px;
+    max-height: 800px;
+    min-height: 770px;
+    min-width: 400px;
+    max-width: 420px;
+    place-self: center;
+    margin-left: 6em;
+    background-color: #efeff0;
+  }
+}
+@media (max-height: 768px) {
+  .info {
+    margin-bottom: 1em !important;
+  }
+
+  .social-items {
+    margin: 0px !important;
+  }
+}
+@media (max-height: 645px) {
+  .info {
+    margin: 0px !important;
+    margin-bottom: 1em !important;
+  }
+
+  .social-item {
+    margin-bottom: 0.9em !important;
+  }
+
+  .social-items {
+    margin: 0px !important;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
